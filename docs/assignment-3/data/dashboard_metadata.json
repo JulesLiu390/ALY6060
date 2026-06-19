@@ -1,0 +1,10 @@
+{
+  "title": "CEO Business Partner Comparison",
+  "course": "ALY 6060 Decision Support and Business Intelligence",
+  "assignment": "Assignment 3: Working With Business Partners",
+  "student": "Xing Liu",
+  "data_as_of": "2026-06-10",
+  "ranking_source": "Fortune 500 2026 ranking",
+  "ranking_url": "https://fortune.com/ranking/fortune500/",
+  "note": "Dataset compares ten CEOs from the 2026 Fortune 500 top ten companies. CEO status and leadership attributes were checked against company leadership pages or investor relations pages where available."
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "q1_department",
+    "prompt": "Which business function do you represent?",
+    "responseType": "single choice",
+    "options": [
+      "Customer Support",
+      "Content Moderation",
+      "Data Entry",
+      "Finance",
+      "Legal",
+      "Operations",
+      "Data/Analytics"
+    ]
+  },
+  {
+    "id": "q2_automation_potential",
+    "prompt": "What percentage of recurring work in your area could realistically be automated by AI?",
+    "responseType": "numeric percent",
+    "scale": "0 to 100"
+  },
+  {
+    "id": "q3_data_readiness",
+    "prompt": "How confident are you that current user and operational data is accurate enough to support AI automation?",
+    "responseType": "Likert scale",
+    "scale": "1 = not confident, 5 = very confident"
+  },
+  {
+    "id": "q4_risk_concern",
+    "prompt": "How concerned are you about wrong AI responses, privacy exposure, customer churn, or legal risk?",
+    "responseType": "Likert scale",
+    "scale": "1 = not concerned, 5 = extremely concerned"
+  },
+  {
+    "id": "q5_human_oversight",
+    "prompt": "What level of human oversight should be required before AI decisions affect users directly?",
+    "responseType": "single choice",
+    "options": [
+      "No routine oversight",
+      "Random audit sample",
+      "High-risk cases only",
+      "Review all AI decisions"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-06-03T09:00:00-04:00",
+  "topic": "AI automation rollout stakeholder survey",
+  "record_count": 156,
+  "departments": [
+    "Customer Support",
+    "Content Moderation",
+    "Data Entry",
+    "Finance",
+    "Legal",
+    "Operations",
+    "Data/Analytics"
+  ],
+  "scoring_notes": {
+    "data_readiness_score": "1 = not confident, 5 = very confident",
+    "risk_concern_score": "1 = not concerned, 5 = extremely concerned",
+    "critical_zone": "Responses are considered critical when automation potential is at least 60%, risk concern is at least 4, and data readiness is below 4."
+  }
+}

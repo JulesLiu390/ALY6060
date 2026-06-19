@@ -1,0 +1,154 @@
+{
+  "source": "Yahoo Finance chart API",
+  "fetched_at": "2026-05-27T22:38:58.623745+00:00",
+  "start_date": "2020-01-01",
+  "end_date_requested": "2026-05-27",
+  "tickers": [
+    "AAPL",
+    "AMZN",
+    "GOOGL",
+    "NVDA",
+    "TSLA"
+  ],
+  "metrics": [
+    {
+      "ticker": "AAPL",
+      "company": "Apple Inc.",
+      "latest_date": "2026-05-27",
+      "latest_close": 310.85,
+      "latest_adj_close": 310.85,
+      "period_start": "2020-01-02",
+      "period_end": "2026-05-27",
+      "return_1y_pct": 59.82,
+      "return_period_pct": 329.74,
+      "high_52w": 310.85,
+      "low_52w": 195.64,
+      "avg_volume_30d": 47419895,
+      "annualized_volatility_1y_pct": 22.12,
+      "split_count_in_period": 1,
+      "split_events": [
+        {
+          "date": "2020-08-31",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "split_ratio": "4.0:1.0",
+          "split_factor": 4.0
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon.com, Inc.",
+      "latest_date": "2026-05-27",
+      "latest_close": 271.85,
+      "latest_adj_close": 271.85,
+      "period_start": "2020-01-02",
+      "period_end": "2026-05-27",
+      "return_1y_pct": 35.26,
+      "return_period_pct": 186.46,
+      "high_52w": 274.99,
+      "low_52w": 198.79,
+      "avg_volume_30d": 43441491,
+      "annualized_volatility_1y_pct": 29.68,
+      "split_count_in_period": 1,
+      "split_events": [
+        {
+          "date": "2022-06-06",
+          "ticker": "AMZN",
+          "company": "Amazon.com, Inc.",
+          "split_ratio": "20.0:1.0",
+          "split_factor": 20.0
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet Inc.",
+      "latest_date": "2026-05-27",
+      "latest_close": 388.83,
+      "latest_adj_close": 388.83,
+      "period_start": "2020-01-02",
+      "period_end": "2026-05-27",
+      "return_1y_pct": 131.6,
+      "return_period_pct": 472.88,
+      "high_52w": 402.62,
+      "low_52w": 165.19,
+      "avg_volume_30d": 27314140,
+      "annualized_volatility_1y_pct": 28.9,
+      "split_count_in_period": 1,
+      "split_events": [
+        {
+          "date": "2022-07-18",
+          "ticker": "GOOGL",
+          "company": "Alphabet Inc.",
+          "split_ratio": "20.0:1.0",
+          "split_factor": 20.0
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA Corporation",
+      "latest_date": "2026-05-27",
+      "latest_close": 212.6,
+      "latest_adj_close": 212.6,
+      "period_start": "2020-01-02",
+      "period_end": "2026-05-27",
+      "return_1y_pct": 61.97,
+      "return_period_pct": 3460.66,
+      "high_52w": 235.74,
+      "low_52w": 134.81,
+      "avg_volume_30d": 158125262,
+      "annualized_volatility_1y_pct": 33.86,
+      "split_count_in_period": 2,
+      "split_events": [
+        {
+          "date": "2021-07-20",
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "split_ratio": "4.0:1.0",
+          "split_factor": 4.0
+        },
+        {
+          "date": "2024-06-10",
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "split_ratio": "10.0:1.0",
+          "split_factor": 10.0
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla, Inc.",
+      "latest_date": "2026-05-27",
+      "latest_close": 440.36,
+      "latest_adj_close": 440.36,
+      "period_start": "2020-01-02",
+      "period_end": "2026-05-27",
+      "return_1y_pct": 29.77,
+      "return_period_pct": 1435.21,
+      "high_52w": 489.88,
+      "low_52w": 284.7,
+      "avg_volume_30d": 59666622,
+      "annualized_volatility_1y_pct": 46.74,
+      "split_count_in_period": 2,
+      "split_events": [
+        {
+          "date": "2020-08-31",
+          "ticker": "TSLA",
+          "company": "Tesla, Inc.",
+          "split_ratio": "5.0:1.0",
+          "split_factor": 5.0
+        },
+        {
+          "date": "2022-08-25",
+          "ticker": "TSLA",
+          "company": "Tesla, Inc.",
+          "split_ratio": "3.0:1.0",
+          "split_factor": 3.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "title": "Anthropic Embedded Analytics Evidence Dashboard",
+    "course": "ALY 6060 Decision Support and Business Intelligence",
+    "assignment": "Assignment 4: Implementing Embedded Analytics",
+    "data_as_of": "2026-06-19",
+    "scope": "Only Anthropic-published research, reports, and official articles with quantitative data were used."
+  },
+  "reports": [
+    {
+      "id": "work",
+      "title": "How AI is transforming work at Anthropic",
+      "date": "2025-12-02",
+      "category": "Internal work",
+      "url": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
+      "sample": "132 Anthropic engineers and researchers, 53 qualitative interviews, and internal Claude Code usage data",
+      "dashboard_use": "Internal AI adoption, productivity lift, daily task usage, delegation limits, and workplace risks"
+    },
+    {
+      "id": "code",
+      "title": "Agentic coding and persistent returns to expertise",
+      "date": "2026-06-16",
+      "category": "Claude Code",
+      "url": "https://www.anthropic.com/research/claude-code-expertise",
+      "sample": "About 400,000 interactive Claude Code sessions from about 235,000 people between October 2025 and April 2026",
+      "dashboard_use": "Work mode composition, human versus Claude decision split, task value growth, and success by expertise"
+    },
+    {
+      "id": "autonomy",
+      "title": "Measuring AI agent autonomy in practice",
+      "date": "2026-02-18",
+      "category": "Agent oversight",
+      "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+      "sample": "Millions of human-agent interactions, including Claude Code and public API tool-use data",
+      "dashboard_use": "Autonomy, auto-approval, safeguards, human-in-the-loop coverage, reversibility, and risk monitoring"
+    },
+    {
+      "id": "economic",
+      "title": "Anthropic Economic Index report: Learning curves",
+      "date": "2026-03-24",
+      "category": "Economic Index",
+      "url": "https://www.anthropic.com/research/economic-index-march-2026-report",
+      "sample": "February 5 to February 12, 2026 Claude usage, including Claude.ai and first-party API samples",
+      "dashboard_use": "Use case diversification, work versus personal use, task value, geographic concentration, and learning effects"
+    },
+    {
+      "id": "fluency",
+      "title": "Anthropic Education Report: The AI Fluency Index",
+      "date": "2026-02-23",
+      "category": "AI fluency",
+      "url": "https://www.anthropic.com/research/AI-fluency-index",
+      "sample": "9,830 Claude.ai conversations with several back-and-forths during a 7-day window in January 2026",
+      "dashboard_use": "User fluency behaviors, iteration, evaluation habits, and artifact-related risk"
+    },
+    {
+      "id": "alignment",
+      "title": "Teaching Claude why",
+      "date": "2026-05-08",
+      "category": "Alignment",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "sample": "Anthropic alignment evaluations and experimental safety training datasets",
+      "dashboard_use": "Misalignment reduction, safety-training effectiveness, and model governance recommendations"
+    },
+    {
+      "id": "fetch",
+      "title": "Project Fetch: Phase two",
+      "date": "2026-06-18",
+      "category": "Physical agents",
+      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "sample": "Three Claude Opus 4.7 trials on robotic tasks compared with prior Anthropic employee teams",
+      "dashboard_use": "Agent speed, code volume, reliability, and limits in physical-world tool use"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Official reports used",
+      "value": 7,
+      "suffix": "",
+      "detail": "Anthropic-only sources",
+      "report_id": "all"
+    },
+    {
+      "label": "Internal productivity boost",
+      "value": 50,
+      "suffix": "%",
+      "detail": "Self-reported by Anthropic employees now",
+      "report_id": "work"
+    },
+    {
+      "label": "Claude Code sessions",
+      "value": 400000,
+      "suffix": "+",
+      "detail": "Interactive sessions in coding expertise report",
+      "report_id": "code"
+    },
+    {
+      "label": "Agent tool calls with safeguards",
+      "value": 80,
+      "suffix": "%",
+      "detail": "Public API agent tool calls",
+      "report_id": "autonomy"
+    },
+    {
+      "label": "AI fluency sample",
+      "value": 9830,
+      "suffix": "",
+      "detail": "Claude.ai conversations studied",
+      "report_id": "fluency"
+    },
+    {
+      "label": "Fastest robotics speedup",
+      "value": 37.7,
+      "suffix": "x",
+      "detail": "Opus 4.7 versus no-Claude team on shared tasks",
+      "report_id": "fetch"
+    }
+  ],
+  "internal_productivity": [
+    {
+      "metric": "Claude share of daily work",
+      "period": "12 months earlier",
+      "value": 28,
+      "unit": "%",
+      "report_id": "work"
+    },
+    {
+      "metric": "Claude share of daily work",
+      "period": "Current",
+      "value": 59,
+      "unit": "%",
+      "report_id": "work"
+    },
+    {
+      "metric": "Productivity boost",
+      "period": "12 months earlier",
+      "value": 20,
+      "unit": "%",
+      "report_id": "work"
+    },
+    {
+      "metric": "Productivity boost",
+      "period": "Current",
+      "value": 50,
+      "unit": "%",
+      "report_id": "work"
+    }
+  ],
+  "internal_tasks": [
+    {
+      "task": "Debugging",
+      "daily_users": 55,
+      "report_id": "work"
+    },
+    {
+      "task": "Code understanding",
+      "daily_users": 42,
+      "report_id": "work"
+    },
+    {
+      "task": "Implementing new features",
+      "daily_users": 37,
+      "report_id": "work"
+    },
+    {
+      "task": "Not enjoyable work",
+      "daily_users": 44,
+      "report_id": "work",
+      "note": "Share of Claude-assisted work employees said they would not have enjoyed doing themselves"
+    },
+    {
+      "task": "New work enabled",
+      "daily_users": 27,
+      "report_id": "work",
+      "note": "Claude-assisted work employees said would not have been done without Claude"
+    }
+  ],
+  "claude_code_work_modes": [
+    {
+      "mode": "Fixing broken code",
+      "share": 26,
+      "report_id": "code"
+    },
+    {
+      "mode": "Writing new code",
+      "share": 25,
+      "report_id": "code"
+    },
+    {
+      "mode": "Operating software",
+      "share": 17,
+      "report_id": "code"
+    },
+    {
+      "mode": "Planning or exploring",
+      "share": 14,
+      "report_id": "code"
+    },
+    {
+      "mode": "Analysis or prose",
+      "share": 13,
+      "report_id": "code"
+    },
+    {
+      "mode": "Testing or orchestrating",
+      "share": 5,
+      "report_id": "code"
+    }
+  ],
+  "claude_code_trends": [
+    {
+      "metric": "Fixing broken code",
+      "oct_2025": 33,
+      "apr_2026": 19,
+      "unit": "%",
+      "report_id": "code"
+    },
+    {
+      "metric": "Operating software",
+      "oct_2025": 14,
+      "apr_2026": 21,
+      "unit": "%",
+      "report_id": "code"
+    },
+    {
+      "metric": "Writing and data analysis",
+      "oct_2025": 10,
+      "apr_2026": 20,
+      "unit": "%",
+      "report_id": "code"
+    },
+    {
+      "metric": "Feature implementation",
+      "oct_2025": 14,
+      "apr_2026": 37,
+      "unit": "%",
+      "report_id": "work"
+    },
+    {
+      "metric": "Code design and planning",
+      "oct_2025": 1,
+      "apr_2026": 10,
+      "unit": "%",
+      "report_id": "work"
+    }
+  ],
+  "decision_split": [
+    {
+      "decision_type": "Planning decisions",
+      "human": 70,
+      "claude": 30,
+      "report_id": "code"
+    },
+    {
+      "decision_type": "Execution decisions",
+      "human": 20,
+      "claude": 80,
+      "report_id": "code"
+    }
+  ],
+  "agent_oversight": [
+    {
+      "metric": "Tool calls with safeguards",
+      "value": 80,
+      "unit": "%",
+      "report_id": "autonomy"
+    },
+    {
+      "metric": "Human in the loop",
+      "value": 73,
+      "unit": "%",
+      "report_id": "autonomy"
+    },
+    {
+      "metric": "Irreversible actions",
+      "value": 0.8,
+      "unit": "%",
+      "report_id": "autonomy"
+    },
+    {
+      "metric": "New-user full auto-approve sessions",
+      "value": 20,
+      "unit": "%",
+      "report_id": "autonomy"
+    },
+    {
+      "metric": "Experienced-user full auto-approve sessions",
+      "value": 40,
+      "unit": "%",
+      "report_id": "autonomy"
+    }
+  ],
+  "autonomy_runtime": [
+    {
+      "period": "Three months earlier",
+      "minutes": 25,
+      "report_id": "autonomy"
+    },
+    {
+      "period": "Current longest sessions",
+      "minutes": 45,
+      "report_id": "autonomy"
+    }
+  ],
+  "economic_index": [
+    {
+      "metric": "Claude.ai top 10 task concentration",
+      "nov_2025": 24,
+      "feb_2026": 19,
+      "unit": "%",
+      "report_id": "economic"
+    },
+    {
+      "metric": "Personal use",
+      "nov_2025": 35,
+      "feb_2026": 42,
+      "unit": "%",
+      "report_id": "economic"
+    },
+    {
+      "metric": "Coursework use",
+      "nov_2025": 19,
+      "feb_2026": 12,
+      "unit": "%",
+      "report_id": "economic"
+    },
+    {
+      "metric": "Work use",
+      "nov_2025": 46,
+      "feb_2026": 45,
+      "unit": "%",
+      "report_id": "economic"
+    },
+    {
+      "metric": "Top 20 countries share of per-capita usage",
+      "nov_2025": 45,
+      "feb_2026": 48,
+      "unit": "%",
+      "report_id": "economic"
+    },
+    {
+      "metric": "Top 10 US states share of usage",
+      "nov_2025": 40,
+      "feb_2026": 38,
+      "unit": "%",
+      "report_id": "economic"
+    }
+  ],
+  "fluency": [
+    {
+      "metric": "Iteration and refinement",
+      "value": 85.7,
+      "unit": "%",
+      "report_id": "fluency"
+    },
+    {
+      "metric": "Artifact conversations",
+      "value": 12.3,
+      "unit": "%",
+      "report_id": "fluency"
+    },
+    {
+      "metric": "Additional behaviors with iteration",
+      "value": 2.67,
+      "unit": "behaviors",
+      "report_id": "fluency"
+    },
+    {
+      "metric": "Additional behaviors without iteration",
+      "value": 1.33,
+      "unit": "behaviors",
+      "report_id": "fluency"
+    },
+    {
+      "metric": "Questioning reasoning lift with iteration",
+      "value": 5.6,
+      "unit": "x",
+      "report_id": "fluency"
+    },
+    {
+      "metric": "Missing-context identification lift with iteration",
+      "value": 4,
+      "unit": "x",
+      "report_id": "fluency"
+    }
+  ],
+  "alignment_training": [
+    {
+      "intervention": "Previous Opus 4 blackmail rate",
+      "before": 96,
+      "after": 96,
+      "unit": "%",
+      "report_id": "alignment"
+    },
+    {
+      "intervention": "Aligned actions only",
+      "before": 22,
+      "after": 15,
+      "unit": "%",
+      "report_id": "alignment"
+    },
+    {
+      "intervention": "Aligned reasoning examples",
+      "before": 22,
+      "after": 3,
+      "unit": "%",
+      "report_id": "alignment"
+    },
+    {
+      "intervention": "Constitutional documents and stories",
+      "before": 65,
+      "after": 19,
+      "unit": "%",
+      "report_id": "alignment"
+    },
+    {
+      "intervention": "Recent Claude models after Haiku 4.5",
+      "before": 96,
+      "after": 0,
+      "unit": "%",
+      "report_id": "alignment"
+    }
+  ],
+  "project_fetch": [
+    {
+      "team": "Team without Claude",
+      "minutes": 361,
+      "code_lines": 1136,
+      "speedup_vs_opus": 37.7,
+      "report_id": "fetch"
+    },
+    {
+      "team": "Team with Claude",
+      "minutes": 181,
+      "code_lines": 10309,
+      "speedup_vs_opus": 18.9,
+      "report_id": "fetch"
+    },
+    {
+      "team": "Claude Opus 4.7 alone",
+      "minutes": 9.58,
+      "code_lines": 1045,
+      "speedup_vs_opus": 1,
+      "report_id": "fetch"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "Embed analytics into daily workflows",
+      "evidence": "Anthropic employees report Claude usage in 59% of daily work and a 50% productivity boost.",
+      "action": "Design BI dashboards that appear inside coding, support, research, and operations workflows instead of requiring separate reporting cycles.",
+      "report_id": "work"
+    },
+    {
+      "priority": "Keep human judgment at the planning layer",
+      "evidence": "Claude Code users make about 70% of planning decisions while Claude makes about 80% of execution decisions.",
+      "action": "Let AI automate execution-heavy tasks, but require humans to define goals, constraints, success criteria, and final acceptance.",
+      "report_id": "code"
+    },
+    {
+      "priority": "Build oversight telemetry before scaling agents",
+      "evidence": "80% of public API tool calls appear to have safeguards and 73% have some human-in-the-loop mechanism.",
+      "action": "Track autonomy, risk, reversibility, clarification stops, and human interrupts as operational BI metrics.",
+      "report_id": "autonomy"
+    },
+    {
+      "priority": "Train users for AI fluency",
+      "evidence": "Iterative conversations show 2.67 additional fluency behaviors, compared with 1.33 without iteration.",
+      "action": "Train employees to iterate, question reasoning, identify missing context, and verify outputs, especially when artifacts look polished.",
+      "report_id": "fluency"
+    },
+    {
+      "priority": "Treat safety as an implementation metric",
+      "evidence": "Anthropic reduced some misalignment rates sharply by training models on reasoning and constitutional principles.",
+      "action": "Pair productivity dashboards with safety dashboards that show policy violations, escalation rates, reversibility, and audit outcomes.",
+      "report_id": "alignment"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+date,ticker,company,split_ratio,split_factor
+2020-08-31,AAPL,Apple Inc.,4.0:1.0,4.0
+2022-06-06,AMZN,"Amazon.com, Inc.",20.0:1.0,20.0
+2022-07-18,GOOGL,Alphabet Inc.,20.0:1.0,20.0
+2021-07-20,NVDA,NVIDIA Corporation,4.0:1.0,4.0
+2024-06-10,NVDA,NVIDIA Corporation,10.0:1.0,10.0
+2020-08-31,TSLA,"Tesla, Inc.",5.0:1.0,5.0
+2022-08-25,TSLA,"Tesla, Inc.",3.0:1.0,3.0

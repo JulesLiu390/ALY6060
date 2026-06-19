@@ -1,0 +1,157 @@
+response_id,submitted_at,department,respondent_role,priority_use_case,automation_potential_pct,data_readiness_score,risk_concern_score,oversight_preference
+R001,2026-05-05,Legal,Privacy Counsel,Privacy impact review,43,2,5,Review all AI decisions
+R002,2026-04-12,Customer Support,CX Operations Lead,Refund response drafting,51,5,3,Random audit sample
+R003,2026-04-30,Finance,Procurement Analyst,Cost variance review,42,4,4,High-risk cases only
+R004,2026-04-21,Operations,Program Lead,SLA exception detection,71,4,5,High-risk cases only
+R005,2026-05-08,Legal,Privacy Counsel,Regulatory intake,28,4,5,High-risk cases only
+R006,2026-04-21,Finance,Finance Manager,Invoice coding,48,4,3,High-risk cases only
+R007,2026-04-13,Legal,Compliance Manager,Regulatory intake,49,4,4,High-risk cases only
+R008,2026-05-03,Content Moderation,Policy Operations Lead,Policy queue prioritization,53,3,5,Review all AI decisions
+R009,2026-04-15,Operations,Program Lead,Queue forecasting,71,4,5,Review all AI decisions
+R010,2026-05-12,Operations,Program Lead,Queue forecasting,76,4,3,Random audit sample
+R011,2026-05-02,Content Moderation,Queue Supervisor,Image review support,59,2,5,Review all AI decisions
+R012,2026-04-07,Data Entry,Back Office Lead,Form extraction,88,3,3,Random audit sample
+R013,2026-05-11,Content Moderation,Queue Supervisor,Image review support,49,3,5,Review all AI decisions
+R014,2026-04-10,Data/Analytics,Data Product Lead,Metric anomaly review,60,4,5,High-risk cases only
+R015,2026-05-03,Data/Analytics,Analytics Manager,Data quality monitoring,61,3,4,High-risk cases only
+R016,2026-04-30,Finance,Finance Manager,Cost variance review,66,5,3,Random audit sample
+R017,2026-05-05,Customer Support,Support Manager,Ticket triage,63,5,4,Random audit sample
+R018,2026-05-01,Content Moderation,Queue Supervisor,Policy queue prioritization,48,2,4,High-risk cases only
+R019,2026-04-07,Customer Support,Escalation Lead,Account troubleshooting,72,4,3,High-risk cases only
+R020,2026-04-09,Legal,Compliance Manager,Terms screening,35,4,4,Random audit sample
+R021,2026-05-16,Content Moderation,Queue Supervisor,Policy queue prioritization,52,3,5,Review all AI decisions
+R022,2026-04-25,Data Entry,Data Operations Manager,Invoice field validation,81,4,4,High-risk cases only
+R023,2026-05-13,Customer Support,Support Manager,Ticket triage,52,4,3,High-risk cases only
+R024,2026-05-12,Customer Support,Escalation Lead,Account troubleshooting,62,3,3,High-risk cases only
+R025,2026-05-17,Customer Support,Support Manager,Ticket triage,56,4,3,High-risk cases only
+R026,2026-05-10,Content Moderation,Trust and Safety Manager,Policy queue prioritization,46,4,5,Review all AI decisions
+R027,2026-05-01,Content Moderation,Policy Operations Lead,Policy queue prioritization,44,2,5,Review all AI decisions
+R028,2026-05-08,Finance,Procurement Analyst,Invoice coding,66,3,2,Random audit sample
+R029,2026-05-04,Data Entry,Workflow Coordinator,Form extraction,81,3,2,Random audit sample
+R030,2026-04-11,Data Entry,Data Operations Manager,Duplicate record cleanup,80,5,3,High-risk cases only
+R031,2026-04-20,Data/Analytics,Data Product Lead,Metric anomaly review,63,4,4,High-risk cases only
+R032,2026-04-15,Operations,Workforce Planning Lead,Queue forecasting,57,3,3,High-risk cases only
+R033,2026-04-30,Content Moderation,Policy Operations Lead,Policy queue prioritization,45,3,5,High-risk cases only
+R034,2026-05-14,Data/Analytics,Analytics Manager,Experiment readouts,84,3,4,High-risk cases only
+R035,2026-05-13,Content Moderation,Policy Operations Lead,Image review support,51,4,5,High-risk cases only
+R036,2026-04-21,Data/Analytics,BI Analyst,Experiment readouts,62,5,3,High-risk cases only
+R037,2026-05-09,Legal,Compliance Manager,Regulatory intake,49,3,5,High-risk cases only
+R038,2026-05-16,Data/Analytics,Analytics Manager,Metric anomaly review,77,4,5,Review all AI decisions
+R039,2026-05-16,Data/Analytics,Data Product Lead,Metric anomaly review,65,5,4,High-risk cases only
+R040,2026-05-12,Customer Support,CX Operations Lead,Account troubleshooting,57,4,2,Random audit sample
+R041,2026-04-08,Customer Support,CX Operations Lead,Ticket triage,63,4,3,Random audit sample
+R042,2026-04-15,Finance,FP&A Lead,Cost variance review,41,4,2,High-risk cases only
+R043,2026-05-12,Data/Analytics,Analytics Manager,Metric anomaly review,61,3,5,Review all AI decisions
+R044,2026-05-04,Finance,Finance Manager,Invoice coding,56,3,3,Random audit sample
+R045,2026-04-11,Legal,Risk Officer,Privacy impact review,33,4,4,Random audit sample
+R046,2026-04-15,Legal,Compliance Manager,Regulatory intake,49,3,4,High-risk cases only
+R047,2026-04-07,Customer Support,Support Manager,Refund response drafting,64,4,3,High-risk cases only
+R048,2026-04-17,Data/Analytics,Data Product Lead,Metric anomaly review,71,5,4,Random audit sample
+R049,2026-04-23,Content Moderation,Trust and Safety Manager,Appeals routing,61,4,5,Review all AI decisions
+R050,2026-04-12,Customer Support,Support Manager,Ticket triage,63,4,3,High-risk cases only
+R051,2026-05-13,Finance,FP&A Lead,Invoice coding,54,4,2,High-risk cases only
+R052,2026-04-14,Operations,Program Lead,Queue forecasting,50,2,3,Random audit sample
+R053,2026-04-15,Operations,Workforce Planning Lead,SLA exception detection,57,3,3,High-risk cases only
+R054,2026-04-20,Content Moderation,Queue Supervisor,Image review support,47,2,4,High-risk cases only
+R055,2026-05-01,Operations,Program Lead,Queue forecasting,75,3,4,Random audit sample
+R056,2026-04-11,Data/Analytics,Data Product Lead,Experiment readouts,62,4,4,High-risk cases only
+R057,2026-05-06,Data/Analytics,Data Product Lead,Metric anomaly review,68,3,4,Random audit sample
+R058,2026-05-05,Operations,Operations Manager,SLA exception detection,67,3,3,High-risk cases only
+R059,2026-04-29,Customer Support,CX Operations Lead,Refund response drafting,59,4,2,High-risk cases only
+R060,2026-04-09,Legal,Compliance Manager,Regulatory intake,21,3,5,Review all AI decisions
+R061,2026-04-14,Legal,Compliance Manager,Terms screening,28,3,4,High-risk cases only
+R062,2026-04-26,Finance,Procurement Analyst,Cost variance review,62,4,3,High-risk cases only
+R063,2026-04-21,Finance,FP&A Lead,Cost variance review,60,4,3,High-risk cases only
+R064,2026-05-13,Legal,Risk Officer,Regulatory intake,26,3,4,High-risk cases only
+R065,2026-05-01,Content Moderation,Queue Supervisor,Appeals routing,46,4,5,Review all AI decisions
+R066,2026-04-25,Data/Analytics,BI Analyst,Experiment readouts,54,5,4,High-risk cases only
+R067,2026-05-09,Customer Support,Escalation Lead,Account troubleshooting,61,5,3,High-risk cases only
+R068,2026-04-26,Data Entry,Workflow Coordinator,Invoice field validation,82,3,4,Random audit sample
+R069,2026-04-25,Content Moderation,Policy Operations Lead,Image review support,45,2,5,High-risk cases only
+R070,2026-04-25,Data Entry,Data Operations Manager,Invoice field validation,83,3,2,Random audit sample
+R071,2026-05-05,Data/Analytics,Data Product Lead,Experiment readouts,70,4,4,High-risk cases only
+R072,2026-05-03,Data Entry,Data Operations Manager,Duplicate record cleanup,91,5,3,Random audit sample
+R073,2026-04-15,Content Moderation,Policy Operations Lead,Appeals routing,70,3,5,Review all AI decisions
+R074,2026-04-30,Content Moderation,Policy Operations Lead,Appeals routing,60,3,5,Review all AI decisions
+R075,2026-04-09,Content Moderation,Queue Supervisor,Image review support,67,3,5,Review all AI decisions
+R076,2026-04-19,Finance,FP&A Lead,Cost variance review,37,4,3,High-risk cases only
+R077,2026-04-19,Data Entry,Workflow Coordinator,Duplicate record cleanup,84,5,3,High-risk cases only
+R078,2026-04-29,Operations,Workforce Planning Lead,Queue forecasting,49,3,5,High-risk cases only
+R079,2026-04-30,Legal,Compliance Manager,Regulatory intake,48,3,5,High-risk cases only
+R080,2026-04-22,Data/Analytics,BI Analyst,Metric anomaly review,82,3,4,Random audit sample
+R081,2026-04-07,Data/Analytics,Data Product Lead,Data quality monitoring,69,4,3,High-risk cases only
+R082,2026-05-08,Customer Support,Support Manager,Ticket triage,75,4,3,High-risk cases only
+R083,2026-05-11,Data Entry,Data Operations Manager,Duplicate record cleanup,64,4,4,Random audit sample
+R084,2026-04-12,Finance,FP&A Lead,Cost variance review,53,4,2,Random audit sample
+R085,2026-04-23,Data/Analytics,BI Analyst,Metric anomaly review,59,3,4,Random audit sample
+R086,2026-05-16,Finance,FP&A Lead,Invoice coding,54,3,3,Random audit sample
+R087,2026-05-06,Operations,Workforce Planning Lead,Capacity planning,75,2,4,High-risk cases only
+R088,2026-05-06,Operations,Workforce Planning Lead,SLA exception detection,70,2,3,High-risk cases only
+R089,2026-05-04,Legal,Risk Officer,Regulatory intake,49,2,5,Review all AI decisions
+R090,2026-04-12,Customer Support,Support Manager,Refund response drafting,57,4,2,Random audit sample
+R091,2026-05-09,Data Entry,Workflow Coordinator,Invoice field validation,75,5,2,No routine oversight
+R092,2026-04-11,Content Moderation,Trust and Safety Manager,Policy queue prioritization,47,3,5,High-risk cases only
+R093,2026-04-10,Customer Support,Support Manager,Ticket triage,77,3,3,Random audit sample
+R094,2026-04-22,Finance,Finance Manager,Invoice coding,45,3,4,High-risk cases only
+R095,2026-04-10,Data Entry,Data Operations Manager,Invoice field validation,69,4,2,Random audit sample
+R096,2026-04-19,Content Moderation,Trust and Safety Manager,Policy queue prioritization,60,3,5,Review all AI decisions
+R097,2026-04-08,Legal,Risk Officer,Regulatory intake,30,4,5,Review all AI decisions
+R098,2026-04-23,Customer Support,CX Operations Lead,Ticket triage,76,4,3,High-risk cases only
+R099,2026-04-12,Data Entry,Data Operations Manager,Duplicate record cleanup,64,5,2,Random audit sample
+R100,2026-04-20,Customer Support,CX Operations Lead,Account troubleshooting,74,4,3,High-risk cases only
+R101,2026-04-23,Data/Analytics,BI Analyst,Metric anomaly review,73,3,4,High-risk cases only
+R102,2026-04-12,Content Moderation,Policy Operations Lead,Appeals routing,53,4,5,High-risk cases only
+R103,2026-05-14,Data/Analytics,Analytics Manager,Experiment readouts,63,4,4,High-risk cases only
+R104,2026-05-02,Operations,Workforce Planning Lead,Queue forecasting,49,3,3,Random audit sample
+R105,2026-05-11,Customer Support,Support Manager,Refund response drafting,74,5,2,High-risk cases only
+R106,2026-04-23,Customer Support,Escalation Lead,Refund response drafting,62,3,4,High-risk cases only
+R107,2026-04-16,Finance,Finance Manager,Forecast input checks,48,3,3,High-risk cases only
+R108,2026-04-21,Finance,Finance Manager,Cost variance review,66,3,3,Random audit sample
+R109,2026-04-28,Content Moderation,Queue Supervisor,Policy queue prioritization,54,3,5,Review all AI decisions
+R110,2026-05-07,Operations,Program Lead,Queue forecasting,72,3,4,Random audit sample
+R111,2026-04-20,Customer Support,Support Manager,Ticket triage,73,4,2,Random audit sample
+R112,2026-05-04,Legal,Risk Officer,Terms screening,44,3,5,High-risk cases only
+R113,2026-04-13,Customer Support,Escalation Lead,Account troubleshooting,68,3,2,High-risk cases only
+R114,2026-05-10,Data Entry,Back Office Lead,Form extraction,91,5,2,No routine oversight
+R115,2026-04-27,Operations,Operations Manager,SLA exception detection,57,3,4,High-risk cases only
+R116,2026-05-04,Content Moderation,Trust and Safety Manager,Image review support,57,4,5,Review all AI decisions
+R117,2026-04-09,Legal,Risk Officer,Regulatory intake,37,2,5,Review all AI decisions
+R118,2026-04-16,Finance,FP&A Lead,Cost variance review,62,3,4,High-risk cases only
+R119,2026-04-23,Finance,Procurement Analyst,Invoice coding,66,4,2,No routine oversight
+R120,2026-04-23,Legal,Risk Officer,Privacy impact review,26,3,5,Review all AI decisions
+R121,2026-05-09,Customer Support,Escalation Lead,Refund response drafting,58,3,3,High-risk cases only
+R122,2026-05-12,Operations,Workforce Planning Lead,Capacity planning,52,4,3,High-risk cases only
+R123,2026-04-25,Legal,Privacy Counsel,Regulatory intake,49,4,4,Review all AI decisions
+R124,2026-05-05,Content Moderation,Queue Supervisor,Appeals routing,55,4,5,Review all AI decisions
+R125,2026-04-15,Data Entry,Back Office Lead,Invoice field validation,89,3,4,High-risk cases only
+R126,2026-04-08,Operations,Operations Manager,SLA exception detection,67,2,3,High-risk cases only
+R127,2026-04-13,Data/Analytics,Analytics Manager,Metric anomaly review,68,4,4,High-risk cases only
+R128,2026-05-15,Content Moderation,Queue Supervisor,Policy queue prioritization,51,3,5,Review all AI decisions
+R129,2026-05-08,Data/Analytics,Analytics Manager,Experiment readouts,79,4,4,High-risk cases only
+R130,2026-04-12,Data Entry,Back Office Lead,Duplicate record cleanup,83,5,3,Random audit sample
+R131,2026-04-14,Data Entry,Workflow Coordinator,Form extraction,75,3,3,Random audit sample
+R132,2026-04-08,Data Entry,Workflow Coordinator,Form extraction,89,3,4,Random audit sample
+R133,2026-04-21,Operations,Workforce Planning Lead,SLA exception detection,57,2,4,High-risk cases only
+R134,2026-04-14,Operations,Operations Manager,SLA exception detection,70,3,4,High-risk cases only
+R135,2026-05-16,Customer Support,Escalation Lead,Ticket triage,51,4,3,High-risk cases only
+R136,2026-04-25,Data/Analytics,Analytics Manager,Metric anomaly review,70,4,4,High-risk cases only
+R137,2026-04-23,Operations,Operations Manager,Queue forecasting,65,2,4,Random audit sample
+R138,2026-04-28,Data Entry,Back Office Lead,Invoice field validation,84,5,3,Random audit sample
+R139,2026-05-12,Legal,Risk Officer,Terms screening,25,3,5,High-risk cases only
+R140,2026-04-14,Customer Support,Escalation Lead,Refund response drafting,54,4,2,Random audit sample
+R141,2026-05-13,Legal,Compliance Manager,Privacy impact review,24,4,4,Random audit sample
+R142,2026-05-08,Content Moderation,Queue Supervisor,Appeals routing,71,3,5,Review all AI decisions
+R143,2026-04-14,Operations,Operations Manager,Queue forecasting,68,3,3,Random audit sample
+R144,2026-04-29,Operations,Workforce Planning Lead,Queue forecasting,53,3,4,Random audit sample
+R145,2026-05-07,Content Moderation,Queue Supervisor,Policy queue prioritization,70,2,5,Review all AI decisions
+R146,2026-04-22,Data Entry,Back Office Lead,Invoice field validation,88,3,3,Random audit sample
+R147,2026-05-09,Content Moderation,Policy Operations Lead,Image review support,58,3,5,High-risk cases only
+R148,2026-04-24,Operations,Operations Manager,Capacity planning,61,3,5,High-risk cases only
+R149,2026-05-01,Customer Support,CX Operations Lead,Refund response drafting,62,5,4,High-risk cases only
+R150,2026-04-21,Data Entry,Data Operations Manager,Invoice field validation,73,4,3,High-risk cases only
+R151,2026-04-22,Data/Analytics,Analytics Manager,Data quality monitoring,65,3,4,High-risk cases only
+R152,2026-04-09,Content Moderation,Policy Operations Lead,Image review support,51,3,5,Review all AI decisions
+R153,2026-04-21,Data/Analytics,Analytics Manager,Metric anomaly review,79,4,5,High-risk cases only
+R154,2026-04-22,Finance,Finance Manager,Cost variance review,50,4,4,High-risk cases only
+R155,2026-05-08,Data/Analytics,BI Analyst,Data quality monitoring,57,4,4,High-risk cases only
+R156,2026-04-14,Data/Analytics,Analytics Manager,Data quality monitoring,80,4,3,High-risk cases only

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALY 6060 Dashboard Portfolio</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #172033;
+        background: #f6f7f2;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          linear-gradient(180deg, rgba(246, 247, 242, 0.92), rgba(246, 247, 242, 0.98)),
+          url("assets/assignment4.png") center top / cover fixed;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .page {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 40px 22px 54px;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 24px;
+        align-items: end;
+        padding: 22px 0 34px;
+        border-bottom: 1px solid rgba(23, 32, 51, 0.14);
+      }
+
+      .eyebrow {
+        margin: 0 0 10px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #4b5a70;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 760px;
+        font-size: clamp(2rem, 5vw, 4.8rem);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      .summary {
+        max-width: 390px;
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #455164;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+        margin-top: 28px;
+      }
+
+      .card {
+        display: grid;
+        grid-template-rows: auto 1fr;
+        min-height: 430px;
+        overflow: hidden;
+        border: 1px solid rgba(23, 32, 51, 0.14);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.92);
+        text-decoration: none;
+        box-shadow: 0 18px 44px rgba(32, 38, 52, 0.12);
+        transition:
+          transform 180ms ease,
+          box-shadow 180ms ease,
+          border-color 180ms ease;
+      }
+
+      .card:hover,
+      .card:focus-visible {
+        transform: translateY(-3px);
+        border-color: rgba(48, 92, 121, 0.42);
+        box-shadow: 0 22px 54px rgba(32, 38, 52, 0.18);
+        outline: none;
+      }
+
+      .preview {
+        width: 100%;
+        aspect-ratio: 16 / 10;
+        object-fit: cover;
+        border-bottom: 1px solid rgba(23, 32, 51, 0.12);
+        background: #dce2e0;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding: 20px;
+      }
+
+      .meta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #667287;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: clamp(1.35rem, 2.4vw, 2rem);
+        line-height: 1.1;
+        letter-spacing: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .description {
+        color: #4d596c;
+        line-height: 1.5;
+      }
+
+      .button {
+        width: fit-content;
+        margin-top: auto;
+        padding: 10px 14px;
+        border-radius: 6px;
+        background: #172033;
+        color: #fff;
+        font-weight: 700;
+      }
+
+      footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+        margin-top: 28px;
+        color: #5c697b;
+        font-size: 0.92rem;
+      }
+
+      @media (max-width: 780px) {
+        header,
+        .grid,
+        footer {
+          grid-template-columns: 1fr;
+        }
+
+        header,
+        footer {
+          display: block;
+        }
+
+        .summary {
+          margin-top: 16px;
+        }
+
+        .card {
+          min-height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <div>
+          <p class="eyebrow">Northeastern University | ALY 6060</p>
+          <h1>Dashboard Portfolio</h1>
+        </div>
+        <p class="summary">
+          Four interactive dashboards for the course assignments. Each dashboard opens as a separate static page and can be viewed directly in the browser.
+        </p>
+      </header>
+
+      <section class="grid" aria-label="Dashboard links">
+        <a class="card" href="assignment-1/">
+          <img class="preview" src="assets/assignment1.png" alt="Assignment 1 dashboard preview" />
+          <div class="content">
+            <div class="meta">
+              <span>Assignment 1</span>
+              <span>Dashboard</span>
+            </div>
+            <h2>Stock Split Analysis</h2>
+            <p class="description">
+              Interactive analysis of stock split behavior, market movement, and company level filters.
+            </p>
+            <span class="button">Open dashboard</span>
+          </div>
+        </a>
+
+        <a class="card" href="assignment-2/">
+          <img class="preview" src="assets/assignment2.png" alt="Assignment 2 dashboard preview" />
+          <div class="content">
+            <div class="meta">
+              <span>Assignment 2</span>
+              <span>Dashboard</span>
+            </div>
+            <h2>AI Stakeholder Readiness</h2>
+            <p class="description">
+              Survey based view of automation opportunity, stakeholder risk, governance, and readiness.
+            </p>
+            <span class="button">Open dashboard</span>
+          </div>
+        </a>
+
+        <a class="card" href="assignment-3/">
+          <img class="preview" src="assets/assignment3.png" alt="Assignment 3 dashboard preview" />
+          <div class="content">
+            <div class="meta">
+              <span>Assignment 3</span>
+              <span>Dashboard</span>
+            </div>
+            <h2>CEO Business Partner Profile</h2>
+            <p class="description">
+              Executive partner dashboard with portrait metrics, profile signals, and decision support views.
+            </p>
+            <span class="button">Open dashboard</span>
+          </div>
+        </a>
+
+        <a class="card" href="assignment-4/">
+          <img class="preview" src="assets/assignment4.png" alt="Assignment 4 dashboard preview" />
+          <div class="content">
+            <div class="meta">
+              <span>Assignment 4</span>
+              <span>Dashboard</span>
+            </div>
+            <h2>Anthropic Embedded Analytics</h2>
+            <p class="description">
+              Dashboard built from Anthropic published reports on AI use, agent autonomy, fluency, and alignment.
+            </p>
+            <span class="button">Open dashboard</span>
+          </div>
+        </a>
+      </section>
+
+      <footer>
+        <p>Prepared for ALY 6060 Decision Support and Business Intelligence.</p>
+        <p>June 2026</p>
+      </footer>
+    </main>
+  </body>
+</html>

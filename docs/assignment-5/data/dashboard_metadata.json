@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "title": "AutoML Lending Risk Decision Dashboard",
+    "assignment": "Assignment 5: AutoML Case Study",
+    "case_company": "Global Credit and DataRobot loan default prediction",
+    "business_question": "Which loan applicant segments show the highest default risk, and how can AutoML help route those cases for faster review?",
+    "data_as_of": "2026-06-24",
+    "dataset": "UCI Statlog German Credit Data, 1,000 historical credit applications"
+  },
+  "case_metrics": [
+    {
+      "label": "Online lending services",
+      "value": 99,
+      "suffix": "%",
+      "detail": "Global Credit customer story"
+    },
+    {
+      "label": "Model deployment cycle",
+      "value": 8,
+      "suffix": " weeks",
+      "detail": "Several high-impact models deployed"
+    },
+    {
+      "label": "Public dataset records",
+      "value": 1000,
+      "suffix": "",
+      "detail": "UCI German Credit applications"
+    },
+    {
+      "label": "Observed default labels",
+      "value": 300,
+      "suffix": "",
+      "detail": "Historical default-risk outcomes"
+    },
+    {
+      "label": "AutoML review queue",
+      "value": 42.4,
+      "suffix": "%",
+      "detail": "Applications routed to high review by proxy score"
+    },
+    {
+      "label": "Avant support case",
+      "value": 15,
+      "suffix": "+ models",
+      "detail": "Supplemental fintech ML evidence"
+    }
+  ],
+  "dataset_kpis": {
+    "applications": 1000,
+    "default_count": 300,
+    "good_count": 700,
+    "default_rate": 30.0,
+    "average_credit_amount": 3271.3,
+    "average_duration": 20.9
+  },
+  "sources": [
+    {
+      "name": "AIMultiple MLOps tools",
+      "url": "https://aimultiple.com/mlops-tools",
+      "use": "Background on MLOps categories and machine learning lifecycle management."
+    },
+    {
+      "name": "Qubika Avant case study",
+      "url": "https://qubika.com/work/avant/",
+      "use": "Case evidence about Avant, data pipelines, machine learning, credit scoring, and business impact."
+    },
+    {
+      "name": "DataRobot Global Credit customer story",
+      "url": "https://www.datarobot.com/customers/global-credit/",
+      "use": "Primary case evidence for DataRobot in lending risk, model deployment, data drift, and default probability modeling."
+    },
+    {
+      "name": "DataRobot loan default use case",
+      "url": "https://docs.datarobot.com/11.0/en/docs/api/guide/common-case/loan-default/index.html",
+      "use": "AutoML-style loan default prediction workflow for scoring and ranking review cases."
+    },
+    {
+      "name": "UCI German Credit Data",
+      "url": "https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)",
+      "use": "Public dataset used for dashboard visualization."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+dimension,segment,applications,default_count,default_rate,average_credit_amount,average_review_score
+checking_status,< 0 DM,274,135,49.3,3175.2,71.1
+checking_status,0 to 200 DM,269,105,39.0,3827.6,62.3
+checking_status,No checking account,394,46,11.7,3133.1,42.1
+checking_status,>= 200 DM,63,14,22.2,2177.7,45.5
+credit_history,Critical or other credit,293,50,17.1,3088.0,47.8
+credit_history,Existing paid duly,530,169,31.9,3041.0,55.2
+credit_history,Past delay,88,28,31.8,4302.6,69.9
+credit_history,No prior credit,40,25,62.5,5305.7,77.3
+credit_history,All paid at this bank,49,28,57.1,3344.9,65.1
+purpose,Radio or television,280,62,22.1,2487.7,51.8
+purpose,Education,50,22,44.0,3180.4,54.1
+purpose,Furniture or equipment,181,58,32.0,3067.0,59.1
+purpose,New car,234,89,38.0,3063.0,54.4
+purpose,Used car,103,17,16.5,5370.2,56.8
+purpose,Business,97,34,35.1,4158.0,61.7
+purpose,Domestic appliances,12,4,33.3,1498.0,54.4
+purpose,Repairs,22,8,36.4,2728.1,58.0
+purpose,Other,12,5,41.7,8209.3,72.3
+purpose,Retraining,9,1,11.1,1205.9,45.8
+savings,Unknown or none,183,32,17.5,3906.4,47.5
+savings,< 100 DM,603,217,36.0,3187.8,61.2
+savings,500 to 1000 DM,63,11,17.5,2572.1,41.1
+savings,>= 1000 DM,48,6,12.5,2573.4,39.4
+savings,100 to 500 DM,103,34,33.0,3384.0,54.4
+employment_duration,>= 7 years,253,64,25.3,3224.6,47.3
+employment_duration,1 to 4 years,339,104,30.7,3125.3,56.6
+employment_duration,4 to 7 years,174,39,22.4,3601.7,54.1
+employment_duration,Unemployed,62,23,37.1,4216.8,68.3
+employment_duration,< 1 year,172,70,40.7,2952.5,63.3
+credit_amount_band,"< 1,500 DM",306,88,28.8,1069.3,47.8
+credit_amount_band,"4,000 to 7,999 DM",176,67,38.1,5805.7,65.1
+credit_amount_band,"1,500 to 3,999 DM",448,107,23.9,2568.1,54.7
+credit_amount_band,">= 8,000 DM",70,38,54.3,11024.9,72.7
+duration_band,Up to 12 months,359,76,21.2,1811.4,47.3
+duration_band,More than 36 months,87,45,51.7,7645.8,74.4
+duration_band,13 to 24 months,411,122,29.7,2923.7,55.8
+duration_band,25 to 36 months,143,57,39.9,5273.6,65.2
+age_band,50+,125,34,27.2,3276.3,50.2
+age_band,< 25,149,61,40.9,2958.8,64.5
+age_band,35 to 49,327,74,22.6,3385.0,50.0
+age_band,25 to 34,399,131,32.8,3293.2,58.8
+review_priority,Medium review,457,80,17.5,2622.8,47.2
+review_priority,High review,424,210,49.5,4389.2,72.3
+review_priority,Low review,119,10,8.4,1778.1,29.0
